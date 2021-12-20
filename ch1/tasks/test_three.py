@@ -11,6 +11,7 @@ def test_defaults():
     t1 = Task()
     t2 = Task(None, None, False, None)
     assert t1 == t2
+    assert t1 == t2
 
 
 def test_member_access():
