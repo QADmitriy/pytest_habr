@@ -19,3 +19,4 @@ def test_member_access():
     assert t.summary == 'buy milk'
     assert t.owner == 'brian'
     assert (t.done, t.id) == (False, None)
+    assert (t.done, t.id) == (False, None)
